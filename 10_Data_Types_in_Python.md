@@ -36,7 +36,7 @@ print(type(c))   # <class 'complex'>
 ```
 
 **Type Conversion**
-```pyhton
+```python
 a = 5.6
 b = int(a)       # float → int
 print(b, type(b))  # 5 <class 'int'>
@@ -50,7 +50,7 @@ print(c, type(c))  # (4+5j) <class 'complex'>
 
 ---
 
-### 3. Boolena(`bool`)
+### 3. Boolean (`bool`)
 Booleans represent logical values: **True or False.**
 Internally stored as integers (`True = 1`, `False = 0`).
 
