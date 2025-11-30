@@ -16,7 +16,8 @@ If you try to directly assign `a = b`, you **lose the original value of `a`**, b
 ```python
 a = 5
 b = 6
-a = b       # direct assignment
+a = b
+b = a       # direct assignment
 print(a)    # 6
 print(b)    # 6
 ```
